@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./main.js" defer></script>
+</head>
+<body>
+  <div class="top-container">
+    <form>
+      <input type="text" name="area" id="city" placeholder="Search city">
+      <button id="submit-btn">Search</button>
+      <input type="checkbox" name="temp-select" id="temp-select">
+      <label for="temp-select" id="temperature">Fahrenheit</label>
+      <br>
+      <span class="error">No matching location</span>
+    </form>
+  </div>
+  <div class="wrapper">
+    <div class="info">
+      <p class="city-name">CITY NAME:</p>
+      <p class="condition">CONDITION:</p>
+      <p class="degrees">TEMPERATURE:</p>
+      <p class="feels-like">FEELS LIKE:</p>
+    </div>
+    <div class="secondary-info">
+      <p class="wind-direction">WIND DIRECTION:</p>
+      <p class="humidity">HUMIDITY:</p>
+      <p class="wind-speed">WIND SPEED:</p>
+    </div>
+  </div>
+</body>
+</html>

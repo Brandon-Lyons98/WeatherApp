@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url('./resources/background.jpg');
+}
+
+.top-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  margin: 2em 0;
+}
+
+input {
+  font-size: 1.25em;
+  margin: .5em;
+}
+
+.error {
+  display: none;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5em;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 0;
+  background-color: rgba(20, 20, 20, 0.6);
+  color: whitesmoke;
+}
+
+.info {
+  width: 40%;
+  margin: 3px 0 3px 10%;
+}
+
+.secondary-info {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 3px 10% 0 3px;
+}
